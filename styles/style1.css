@@ -234,3 +234,45 @@ nav .menu a{
 .early-access-info .p{
     margin-top: 16px;
 }
+#footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+#footer .footer-top{
+    width: 85%;
+    max-width: 1360px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.footer-top .icons{
+    display: flex;
+    gap: 16px;
+}
+#footer .footer-bottom{
+    width: 85%;
+    max-width: 1360px;
+    color: #FAFAFA;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-bottom p{
+    margin-top: 30px;
+}
+hr{
+    color: #e5e7eb15;
+}
+.fa-brands{
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
