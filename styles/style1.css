@@ -26,6 +26,30 @@
     display: block;
 }
 
+.section-heading{
+    margin: auto;
+}
+
+.section-heading h2{
+    color: #001931;
+    margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.section-heading p{
+    font-size: 16px;
+    color:#627382;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+.section-heading h6{
+    font-size: 16px;
+    line-height: 20px;
+    color:#469165;
+    margin-top: 16px;
+}
+
 
 /*main style*/
 
@@ -121,4 +145,67 @@ nav .menu a{
     padding: 12.5px 16px;
     border-radius: 4px;
     border: white solid;
+}
+
+#notes{
+    padding-top: 102px;
+}
+#notes .notes-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    /*border: #30B868 solid;*/
+    text-align: center;
+}
+.notes-container .notes-box{
+    display: flex;
+    gap: 24px;
+}
+.notes-box .notes-card{
+    padding: 24px;
+    /*border: red solid;*/
+    box-shadow: 0 0px 8px #00000030;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.notes-box .notes-card img{
+    background-color: #F95555;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 16px;
+}
+.notes-box .notes-card h3{
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.notes-box .notes-card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+#second-brain{
+    padding: 120px;
+}
+.second-brain-container{
+    display: flex;
+    gap: 60px; 
+    border: #F95555 solid;
+   
+}
+.second-brain-container .knowledge{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+}
+.section-heading ul{
+    list-style: none;
+}
+.section-heading ul li{
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    color: #001931;
 }
