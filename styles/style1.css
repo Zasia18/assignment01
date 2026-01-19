@@ -192,8 +192,6 @@ nav .menu a{
 .second-brain-container{
     display: flex;
     gap: 60px; 
-    border: #F95555 solid;
-   
 }
 .second-brain-container .knowledge{
     height: 600px;
@@ -208,4 +206,31 @@ nav .menu a{
     margin-bottom: 16px;
     line-height: 20px;
     color: #001931;
+}
+#early-access{
+    padding: 0 120px 120px 120px;
+}
+#early-access .early-access-info{
+    width: 85%;
+    max-width: 1360px;
+    border-radius: 12px;
+    padding: 80px 40px;
+    margin: auto;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+.early-access-info h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.early-access-info p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+.early-access-info .p{
+    margin-top: 16px;
 }
