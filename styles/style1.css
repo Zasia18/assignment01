@@ -20,6 +20,9 @@
     border: none;
     border-radius: 4px;
 }
+.btn:hover{
+    background-color: #218838;
+}
 
 .color-green{
     color: #30B868;
@@ -108,13 +111,36 @@ nav .menu a{
     display: inline-flex; 
     align-items: center;   
 }
-.banner-content .badge .dot{
+.banner-content .badge .dot-container {
+    position: relative;
     width: 16px;
     height: 16px;
-    border-radius: 50%;
-    background-color: #469165;
-    display: inline block;
 }
+.banner-content .badge .dot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-content .badge .dot1 {
+    width: 16px;
+    height: 16px;
+    background: #469165;
+    opacity: 20%;
+}
+.banner-content .badge .dot2 {
+    width: 12px;
+    height: 12px;
+    background: #469165;
+    opacity: 40%;
+}
+.banner-content .badge .dot3 {
+    width: 6px;
+    height: 6px;
+    background: #469165;
+}
+
 .banner-content h1{
     color:#FFFFFF;
     margin: 16px auto;
@@ -145,6 +171,9 @@ nav .menu a{
     padding: 12.5px 16px;
     border-radius: 4px;
     border: white solid;
+}
+.btn1:hover {
+    background-color: rgba(255, 255, 255, 0.12);
 }
 
 #notes{
@@ -268,7 +297,9 @@ nav .menu a{
     margin-top: 30px;
 }
 hr{
-    color: #e5e7eb15;
+    background-color: #e5e7eb1b;
+    height: 2px;
+    border: none;
 }
 .fa-brands{
     height: 20px;
